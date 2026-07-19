@@ -1,0 +1,46 @@
+<footer class="footer">
+  <div class="container-lg">
+    <div class="social-section" data-aos="fade-up">
+      <h3>Connect With Me</h3>
+      <div class="social-links">
+        <a
+          *ngFor="let link of socialLinks; let i = index"
+          [href]="link.url"
+          target="_blank"
+          [title]="link.name"
+          [attr.data-aos]="'zoom-in'"
+          [attr.data-aos-delay]="i * 50"
+        >
+          <span>{{ link.icon }}</span>
+          <span>{{ link.name }}</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-content mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>About</h4>
+          <p>Passionate AI-Data Analytics student dedicated to building amazing solutions.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:kavita.rawat@myemail.indwes.edu">📧 Email</a></li>
+            <li><a href="tel:+1234567890">📞 Phone</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Kavita Rawat. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

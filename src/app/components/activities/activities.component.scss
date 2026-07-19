@@ -1,0 +1,80 @@
+.activities-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, #6366f1, #ec4899);
+  }
+}
+
+.timeline-item {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.marker {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #6366f1, #ec4899);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.content {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  flex: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1f2937;
+  }
+
+  p {
+    color: #6b7280;
+    margin-bottom: 10px;
+  }
+
+  small {
+    color: #6366f1;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 0;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

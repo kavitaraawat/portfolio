@@ -1,0 +1,30 @@
+<section id="projects" class="projects-section">
+  <div class="container-lg">
+    <h2 class="section-title" data-aos="fade-up">Personal Projects</h2>
+    <div class="row">
+      <div
+        class="col-lg-4 col-md-6 mb-4"
+        *ngFor="let p of projects; let i = index"
+        [attr.data-aos]="'zoom-in'"
+        [attr.data-aos-delay]="i * 100"
+      >
+        <div class="card h-100">
+          <div class="project-image">
+            <img [src]="p.image" [alt]="p.title" />
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ p.title }}</h5>
+            <p class="card-text flex-grow-1">{{ p.description }}</p>
+            <div>
+              <span class="badge bg-light text-primary" *ngFor="let t of p.tech">{{ t }}</span>
+            </div>
+            <div class="mt-3">
+              <a href="#" target="_blank" class="btn btn-sm btn-primary">Live</a>
+              <a href="#" target="_blank" class="btn btn-sm btn-outline-primary ms-2">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

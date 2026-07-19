@@ -1,0 +1,30 @@
+<section id="skills" class="skills-section">
+  <div class="container-lg">
+    <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+    <div class="row">
+      <div
+        class="col-lg-6 mb-5"
+        *ngFor="let cat of categories; let i = index"
+        [attr.data-aos]="'fade-up'"
+        [attr.data-aos-delay]="i * 100"
+      >
+        <h3>{{ cat.name }}</h3>
+        <div *ngFor="let skill of cat.skills" class="skill-item">
+          <div class="skill-header">
+            <span>{{ skill.name }}</span>
+            <span>{{ skill.level }}%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" [style.width.%]="skill.level"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skills-grid">
+      <div class="badge" *ngFor="let s of skills" [attr.data-aos]="'zoom-in'">
+        <div class="badge-icon">{{ s.icon }}</div>
+        <div>{{ s.name }}</div>
+      </div>
+    </div>
+  </div>
+</section>
