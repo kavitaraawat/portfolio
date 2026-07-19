@@ -35,9 +35,10 @@ import { CommonModule } from '@angular/common';
     .project-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
     .card:hover .project-image img { transform: scale(1.1); }`]
 })
+
 export class ProjectsComponent {
   projects = [
-    { id: 1, title: 'E-Commerce', description: 'Full-stack platform with Angular & Node.js', image: 'https://via.placeholder.com/350x200?text=E-Commerce', tech: ['Angular', 'Node.js', 'MongoDB'] },
+    { id: 1, title: 'E-Commerce', description: 'Full-stack platform with Angular & Node.js', image: 'http://localhost:4200/assets/img/projects/ecommerce.png', tech: ['Angular', 'Node.js', 'MongoDB'] },
     { id: 2, title: 'Task Manager', description: 'Real-time task management app', image: 'https://via.placeholder.com/350x200?text=Task+Manager', tech: ['Angular', 'Firebase'] },
     { id: 3, title: 'Weather App', description: 'Real-time weather with OpenWeatherMap API', image: 'https://via.placeholder.com/350x200?text=Weather', tech: ['Angular', 'API'] },
     { id: 4, title: 'Blog Platform', description: 'Full blogging platform with comments', image: 'https://via.placeholder.com/350x200?text=Blog', tech: ['React', 'Node.js'] },

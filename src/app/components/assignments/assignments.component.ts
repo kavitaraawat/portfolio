@@ -26,8 +26,6 @@ import { CommonModule } from '@angular/common';
 })
 export class AssignmentsComponent {
   assignments = [
-    { id: 1, title: 'Data Structures', description: 'Implemented DSA with Java', date: 'Sep 2024', grade: 'A+', tech: ['Java', 'Algorithms'] },
-    { id: 2, title: 'Web Development', description: 'Built e-commerce with Angular', date: 'Aug 2024', grade: 'A', tech: ['Angular', 'Node.js'] },
-    { id: 3, title: 'Database Design', description: 'Hospital management system', date: 'Jul 2024', grade: 'A+', tech: ['SQL', 'MySQL'] }
-  ];
+    { id: 1, title: 'Foundations of Data Analytics (DTAN-500)', description: 'Introduction to data analytics concepts and techniques', date: 'June-Aug 2026', grade: '', tech: ['Tableau', 'Python', 'R'] },
+    { id: 2, title: 'Machine Learning Fundamentals', description: 'Overview of machine learning and applications', date: 'June-Aug 2026', grade: '', tech: ['AI', 'ML'] }  ];
 }

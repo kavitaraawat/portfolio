@@ -18,13 +18,13 @@ import { CommonModule } from '@angular/common';
       </div>
       <div class="footer-content mt-5">
         <div class="row">
-          <div class="col-md-4"><h4>About</h4><p>Passionate CS student dedicated to building amazing web apps.</p></div>
+          <div class="col-md-4"><h4>About</h4><p>Passionate AI-Data Analytics student dedicated to building amazing solutions.</p></div>
           <div class="col-md-4"><h4>Quick Links</h4><ul><li><a href="#profile">Profile</a></li><li><a href="#assignments">Assignments</a></li><li><a href="#skills">Skills</a></li></ul></div>
-          <div class="col-md-4"><h4>Contact</h4><ul><li><a href="mailto:email@example.com">📧 Email</a></li><li><a href="tel:+1234567890">📞 Phone</a></li></ul></div>
+          <div class="col-md-4"><h4>Contact</h4><ul><li><a href="mailto:kavita.rawat@myemail.indwes.edu">📧 Email</a></li><li><a href="tel:+1234567890">📞 Phone</a></li></ul></div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 Kavita Rawat. All rights reserved.</p>
       </div>
     </div>
   </footer>`,
@@ -42,9 +42,9 @@ import { CommonModule } from '@angular/common';
 })
 export class FooterComponent {
   socialLinks = [
-    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/yourprofile' },
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/vinsinraw' },
-    { name: 'Twitter', icon: '𝕏', url: 'https://twitter.com/yourprofile' },
-    { name: 'Email', icon: '📧', url: 'mailto:your.email@example.com' }
+    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/kavita-rawat-271a38422/' },
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/kavitaraawat' },
+    { name: 'Twitter', icon: '𝕏', url: 'https://twitter.com/kavitaraawat' },
+    { name: 'Email', icon: '📧', url: 'mailto:kavita.rawat@myemail.indwes.edu' }
   ];
 }

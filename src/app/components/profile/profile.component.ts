@@ -10,20 +10,21 @@ import { CommonModule } from '@angular/common';
       <div class="row align-items-center" data-aos="fade-up">
         <div class="col-md-4 text-center mb-4 mb-md-0">
           <div class="profile-image-wrapper" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://via.placeholder.com/300?text=Profile+Photo" alt="Profile" class="profile-image">
-            <div class="profile-badge">Student</div>
+            <!-- <img src="https://via.placeholder.com/300?text=Profile+Photo" alt="Profile" class="profile-image"> -->
+            <img class="img-fluid" src="assets/img/portfolio/profile.png" alt="Profile" class="profile-image">
+            <div class="profile-badge">Student IWU</div>
           </div>
         </div>
         <div class="col-md-8" data-aos="slide-left" data-aos-delay="300">
-          <h1 class="profile-name">Your Name</h1>
-          <h2 class="profile-title gradient-text">Computer Science Student</h2>
-          <p class="profile-bio">Welcome to my portfolio! I'm passionate about web development and software engineering. This portfolio showcases my academic work and personal projects.</p>
+          <h1 class="profile-name">Kavita Rawat</h1>
+          <h2 class="profile-title gradient-text">AI-Data Analytics Student</h2>
+          <p class="profile-bio">Welcome to my portfolio! I'm passionate about AI and data analytics. This portfolio showcases my academic work and personal projects.</p>
           <div class="profile-stats">
             <div class="stat-item" data-aos="fade-up" data-aos-delay="400"><h3>25+</h3><p>Projects</p></div>
             <div class="stat-item" data-aos="fade-up" data-aos-delay="500"><h3>15+</h3><p>Assignments</p></div>
             <div class="stat-item" data-aos="fade-up" data-aos-delay="600"><h3>10</h3><p>Skills</p></div>
           </div>
-          <button class="btn btn-primary btn-lg mt-4">Download Resume</button>
+          <!-- <button class="btn btn-primary btn-lg mt-4">Download Resume</button>  -->
         </div>
       </div>
     </div>
