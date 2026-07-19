@@ -12,12 +12,12 @@ import { CommonModule } from '@angular/common';
           <div class="profile-image-wrapper" data-aos="zoom-in" data-aos-delay="200">
             <!-- <img src="https://via.placeholder.com/300?text=Profile+Photo" alt="Profile" class="profile-image"> -->
             <img class="img-fluid" src="assets/img/portfolio/profile.png" alt="Profile" class="profile-image">
-            <div class="profile-badge">Student IWU</div>
+            <div class="profile-badge">IWU</div>
           </div>
         </div>
         <div class="col-md-8" data-aos="slide-left" data-aos-delay="300">
           <h1 class="profile-name">Kavita Rawat</h1>
-          <h2 class="profile-title gradient-text">AI-Data Analytics Student</h2>
+          <h2 class="profile-title gradient-text">AI - Data Analytics</h2>
           <p class="profile-bio">Welcome to my portfolio! I'm passionate about AI and data analytics. This portfolio showcases my academic work and personal projects.</p>
           <div class="profile-stats">
             <div class="stat-item" data-aos="fade-up" data-aos-delay="400"><h3>25+</h3><p>Projects</p></div>
