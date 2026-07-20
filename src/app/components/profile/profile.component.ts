@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PortfolioService } from '../../services/portfolio.service';
 
 @Component({
   selector: 'app-profile',
@@ -8,4 +9,12 @@ import { CommonModule } from '@angular/common';
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss']
 })
-export class ProfileComponent {}
+export class ProfileComponent implements OnInit {
+  profileData: any = {};
+
+  constructor(private portfolioService: PortfolioService) {}
+
+  ngOnInit() {
+    this.profileData = this.portfolioService.getProfileData();
+  }
+}

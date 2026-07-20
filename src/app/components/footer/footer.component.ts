@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PortfolioService, SocialLink } from '../../services/portfolio.service';
 
 @Component({
   selector: 'app-footer',
@@ -8,11 +9,12 @@ import { CommonModule } from '@angular/common';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent {
-  socialLinks = [
-    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/kavita-rawat-271a38422/' },
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/kavitaraawat' },
-    { name: 'Twitter', icon: '𝕏', url: 'https://twitter.com/kavitaraawat' },
-    { name: 'Email', icon: '📧', url: 'mailto:kavita.rawat@myemail.indwes.edu' }
-  ];
+export class FooterComponent implements OnInit {
+  socialLinks: SocialLink[] = [];
+
+  constructor(private portfolioService: PortfolioService) {}
+
+  ngOnInit() {
+    this.socialLinks = this.portfolioService.getSocialLinks();
+  }
 }
