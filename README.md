@@ -1,4 +1,4 @@
-# Student Portfolio - Angular App
+# Student Portfolio - Angular Application
 
 A dynamic, modern Angular portfolio application with smooth scroll animations, responsive design, and GitHub Pages deployment.
 
