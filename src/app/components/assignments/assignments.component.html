@@ -1,6 +1,6 @@
 <section id="assignments" class="assignments-section">
   <div class="container-lg">
-    <h2 class="section-title" data-aos="fade-up">Academic Assignments</h2>
+    <h2 class="section-title" data-aos="fade-up">Academic Artifacts</h2>
     <div class="row">
       <div
         class="col-lg-4 col-md-6 mb-4"
@@ -37,30 +37,61 @@
       <button class="close-btn" (click)="closeModal()">×</button>
     </div>
     <div class="modal-body">
+      <!--
       <div class="detail-row">
         <span class="label">Grade:</span>
         <span class="badge bg-success">{{ selectedAssignment.grade }}</span>
-      </div>
+      </div> 
       <div class="detail-row">
         <span class="label">Submitted:</span>
         <span>{{ selectedAssignment.date }}</span>
       </div>
+     
       <div class="detail-row">
         <span class="label">Description:</span>
         <p>{{ selectedAssignment.description }}</p>
       </div>
+      
       <div class="detail-row">
         <span class="label">Technologies:</span>
         <div class="tech-list">
           <span class="tech-badge" *ngFor="let t of selectedAssignment.tech">{{ t }}</span>
         </div>
       </div>
+      -->
+    <!--
+      <div class="detail-row">
+        <span class="label">Description:</span>
+        <p>{{ selectedAssignment.learnings }}</p>
+      </div>
+      
       <div class="detail-row" *ngIf="selectedAssignment.learnings">
         <span class="label">Key Learnings:</span>
         <ul>
           <li *ngFor="let learning of selectedAssignment.learnings">{{ learning }}</li>
         </ul>
       </div>
+      -->
+      <!-- Assignment Details Section -->
+      <div class="assignment-details" *ngIf="selectedAssignment.details">
+        <div class="detail-row" *ngFor="let detail of selectedAssignment.details">
+          <h3 class="detail-heading">{{ detail.title }}</h3>
+          <!--
+          <img *ngIf="detail.image" 
+            [src]="detail.image" 
+            [alt]="detail.title"
+            class="detail-image"
+          >
+          -->
+          <p class="detail-description">{{ detail.description }}</p>
+          <!--
+          <ul *ngIf="detail.points" class="detail-points">
+            <li *ngFor="let point of detail.points">{{ point }}</li>
+          </ul>
+          -->
+        </div>
+      </div>
     </div>
+
   </div>
 </div>
