@@ -70,6 +70,12 @@ export class PortfolioService {
       ],
       details: [
         {
+          title: 'XYZ Title',
+          description: 'XYZ Desc Artificial Intelligence (AI) refers to the development of computer systems capable of performing tasks that normally require human intelligence, such as reasoning, learning, problem solving, language understanding, and decision-making. The evolution of AI has not been linear; rather, it has progressed through multiple phases marked by optimism, setbacks, and technological breakthroughs. From early rule-based systems in the 1950s to today’s generative and agentic AI systems, the field has continuously expanded in both capability and real-world impact. Understanding this evolution is important because it shows how AI moved from handcrafted logic to data-driven learning and now toward systems capable of autonomous action.',
+          image: '/assets/img/assignments/AI_Timeline.png',
+          points: []
+        },
+        {
           title: 'Introduction',
           description: 'Artificial Intelligence (AI) refers to the development of computer systems capable of performing tasks that normally require human intelligence, such as reasoning, learning, problem solving, language understanding, and decision-making. The evolution of AI has not been linear; rather, it has progressed through multiple phases marked by optimism, setbacks, and technological breakthroughs. From early rule-based systems in the 1950s to today’s generative and agentic AI systems, the field has continuously expanded in both capability and real-world impact. Understanding this evolution is important because it shows how AI moved from handcrafted logic to data-driven learning and now toward systems capable of autonomous action.',
           image: '/assets/img/assignments/AI_Timeline.png',
