@@ -62,7 +62,7 @@ export class PortfolioService {
       id: 1,
       title: 'Evolution of AI: From Early Symbolic Systems to Generative and Agentic AI',
       description: 'The evolution of AI reflects a progression from symbolic reasoning and handcrafted rules to machine learning, deep learning, and now generative and agentic AI.',
-      date: 'July 2026',
+      date: 'Artifact 1',
       grade: '',
       tech: ['', '', ''],
       learnings: [
@@ -70,29 +70,37 @@ export class PortfolioService {
       ],
       details: [
         {
-          title: 'XYZ Title',
-          description: 'XYZ Desc Artificial Intelligence (AI) refers to the development of computer systems capable of performing tasks that normally require human intelligence, such as reasoning, learning, problem solving, language understanding, and decision-making. The evolution of AI has not been linear; rather, it has progressed through multiple phases marked by optimism, setbacks, and technological breakthroughs. From early rule-based systems in the 1950s to today’s generative and agentic AI systems, the field has continuously expanded in both capability and real-world impact. Understanding this evolution is important because it shows how AI moved from handcrafted logic to data-driven learning and now toward systems capable of autonomous action.',
+          title: 'Title',
+          description: 'The Evolution of Artificial Intelligence: From Foundations to Generative and Agentic AI',          image: '/assets/img/assignments/AI_Timeline.png',
+          points: []
+        },
+        {
+          title: 'Objective',
+          description: 'To explain how AI evolved from symbolic, rule-based systems to machine learning, deep learning, generative AI, and agentic AI.',
           image: '/assets/img/assignments/AI_Timeline.png',
           points: []
         },
         {
-          title: 'Introduction',
-          description: 'Artificial Intelligence (AI) refers to the development of computer systems capable of performing tasks that normally require human intelligence, such as reasoning, learning, problem solving, language understanding, and decision-making. The evolution of AI has not been linear; rather, it has progressed through multiple phases marked by optimism, setbacks, and technological breakthroughs. From early rule-based systems in the 1950s to today’s generative and agentic AI systems, the field has continuously expanded in both capability and real-world impact. Understanding this evolution is important because it shows how AI moved from handcrafted logic to data-driven learning and now toward systems capable of autonomous action.',
-          image: '/assets/img/assignments/AI_Timeline.png',
-          points: []
-        },
-        {
-          title: 'Evolution of AI',
-          description: `'The foundations of AI were laid in the 1950s. In 1950, Alan Turing published Computing Machinery and Intelligence and proposed the Turing Test, which became a landmark concept for evaluating machine intelligence. In 1956, the Dartmouth Conference, organized by John McCarthy and other researchers, formally established AI as a field of study. Early AI systems were primarily symbolic and rule-based, meaning they relied on human-defined logic and explicit instructions. Programs such as Logic Theorist demonstrated that machines could solve problems using symbolic reasoning, but these systems were limited to narrow and highly controlled tasks.
-During the 1960s and 1970s, AI research expanded into natural language processing, robotics, and knowledge-based systems. One early example was ELIZA (1966), a chatbot created by Joseph Weizenbaum that simulated conversation using pattern matching. Another milestone was the Perceptron, introduced by Frank Rosenblatt, which suggested that machines could learn simple patterns from data. However, AI systems of this period struggled with limited computing power, insufficient data, and unrealistic expectations. These issues contributed to the first AI Winter in the 1970s, when funding and enthusiasm declined. AI recovered in the 1980s with expert systems, which captured human expertise in the form of rules for tasks such as diagnosis and decision support. Although commercially useful, expert systems were expensive to maintain and difficult to scale.
-The late 1980s and 1990s marked a transition from rule-based AI to machine learning, where systems learned from data instead of relying only on manually written rules. A major milestone was the revival of neural networks through backpropagation, popularized by Geoffrey Hinton, David Rumelhart, and Ronald Williams in 1986. At the same time, statistical techniques such as decision trees, Bayesian models, and support vector machines became widely used. A landmark public achievement occurred in 1997, when IBM’s Deep Blue defeated world chess champion Garry Kasparov, showing the growing strength of AI in specialized domains.
-The modern AI revolution began in the 2010s with the rise of deep learning, driven by large datasets, improved algorithms, and powerful GPUs supported by cloud computing. In 2012, AlexNet dramatically improved image recognition performance and demonstrated the power of deep neural networks. This success accelerated progress in speech recognition, computer vision, and natural language processing. In 2016, AlphaGo defeated Lee Sedol, combining deep learning and reinforcement learning in a historic achievement. The next major breakthrough came in 2017 with the Transformer architecture, which became the foundation for modern large language models. This led to Generative AI, where systems such as GPT can create text, code, and images. More recently, AI has begun moving toward Agentic AI, in which systems can plan tasks, use tools, access information, and perform multi-step actions autonomously.'`,
+          title: 'Process',
+          description: 'The document follows a chronological approach, highlighting major milestones, breakthroughs, challenges, key people, and technologies from 1950 to 2026.',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
         },
         {
-          title: 'Conclusion',
-          description: `'The evolution of AI reflects a progression from symbolic reasoning and handcrafted rules to machine learning, deep learning, and now generative and agentic AI. Each stage has expanded the scope of what machines can do, from solving predefined logical problems to generating content and performing complex tasks with increasing autonomy. As AI continues to evolve, its impact on business, education, healthcare, software engineering, and society will likely grow even further. Understanding its historical development helps explain both its current capabilities and its future direction.'`,
+          title: 'Tools',
+          description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+                {
+          title: 'Value Proposition',
+          description: 'Provides historical context for understanding AI\'s rapid development, current capabilities, and increasing impact across business, education, healthcare, software engineering, and society.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+                {
+          title: 'Relevance',
+          description: 'The topic is highly relevant for understanding today\'s generative and agentic AI landscape and preparing professionals for AI\'s growing influence and future direction.',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
         }        
@@ -102,7 +110,7 @@ The modern AI revolution began in the 2010s with the rise of deep learning, driv
       id: 2,
       title: 'Machine Learning Vs Deep Learning',
       description: 'Machine Learning and Deep Learning are two subsets of Artificial Intelligence (AI) that ...',
-      date: 'July 2026',
+      date: 'Artifact 2',
       grade: '',
       tech: ['', '', ''],
       learnings: [
@@ -110,65 +118,135 @@ The modern AI revolution began in the 2010s with the rise of deep learning, driv
       ],
       details: [
         {
-          title: 'Machine Learning Vs Deep Learning',
-          description: 'Artificial intelligence, is a field of computer science that aims to make machines that can perform tasks that require human intelligence. Machine learning is a subset of AI focusing on creating statistical models and algorithms that let computers learn from data. Deep learning is a subset of ML inspired by the human brain’s structure and function. It focuses on using artificial neural networks to model and solve complex tasks.',
+          title: 'Title',
+          description: 'Machine Learning Vs Deep Learning',
           image: '/assets/img/assignments/AI_Timeline.png',
           points: []
         },
         {
-          title: 'Machine Learning Example: Email Spam Detection',
-          description: `'Example
-Suppose we receive an email with following text:
-Subject: Congratulations! You've won a free iPhone. Click here to claim your prize.
-The machine learning model detects features such as promotional language ("Congratulations!", "free", "claim your prize"), suspicious links, and an unknown sender. Based on patterns learned from previously labeled emails, it classifies the message as spam and moves it to the Spam folder instead of your inbox.
-This application demonstrates how machine learning helps protect millions of users every day by automatically filtering unwanted and potentially harmful emails.
-How It Works
-The machine learning model is trained on thousands of emails labeled as spam or not spam with the help of different algorithms like Logistic Regression or Decision Tree. It learns patterns based on features:
-'`,
+          title: 'Objective',
+          description: 'To explain the differences among AI, ML, and DL and demonstrate their appropriate applications through email spam detection and autonomous vehicle object detection.',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
         },
         {
-          title: '',
-          description: `'The machine learning model detects features such as promotional language ("Congratulations!", "free", "claim your prize"), suspicious links, and an unknown sender. Based on patterns learned from previously labeled emails, it classifies the message as spam and moves it to the Spam folder instead of your inbox.'`,
+          title: 'Process',
+          description: 'Compare AI, ML, and DL based on learning approach, data dependency, feature extraction, data requirements, and use cases; then explain how ML classifies spam emails and how DL processes complex visual information for self-driving cars.',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
-        }        
+        },
+        {
+          title: 'Tools',
+          description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+        {
+          title: 'Value Proposition',
+          description: 'The document demonstrates that selecting the right technology improves efficiency and effectiveness: ML provides interpretable and computationally efficient spam detection, while DL handles complex, high-dimensional visual data required for autonomous driving.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+        {
+          title: 'Relevance',
+          description: 'The topic is relevant for understanding how AI technologies can be matched to real-world problems based on data complexity, computational requirements, accuracy, interpretability, and application needs.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        }
       ]      
     },
     {
       id: 3,
       title: 'Adapting to Challenges',
       description: 'In our journey as leaders, adapting to challenges is a crucial skill. The Bible is filled with examples of leaders who faced tremendous challenges and adapted through faith, wisdom, and perseverance.',
-      date: 'July 2026',
+      date: 'Artifact 3',
       grade: '',
       tech: ['', '', ''],
       learnings: [],
       details: [
         {
-          title: 'Adapting to Challenges',
-          description: 'One challenge currently faced in a leadership role is helping people embrace change, particularly when introducing AI or new technologies into existing workflows. Team members may be uncertain, resistant, or worried that these changes will replace their roles. This can make it difficult to build trust and maintain motivation during the transition.',
+          title: 'Title',
+          description: 'Adapting to Challenges',
           image: '/assets/img/assignments/AI_Timeline.png',
           points: []
         },
         {
-          title: '',
-          description: `'Exodus 3:11–12 reminds us that effective leadership is not about relying solely on our own abilities but on trusting God's presence and wisdom. Like Moses, there are moments of uncertainty, yet God's promise, "I will be with you," provides confidence to move forward. Seeking God's wisdom through prayer, Scripture, and wise counsel helps leaders make thoughtful decisions and respond with patience and compassion. '`,
+          title: 'Objective',
+          description: 'To reflect on how leaders can use faith, wisdom, communication, and courage to manage resistance and make difficult decisions during AI and technology adoption.',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
         },
         {
-          title: '',
-          description: `'Adapting the leadership approach by listening carefully to team members' concerns, communicating the purpose behind the change, and providing support through training and encouragement can ease resistance and strengthen teamwork. By depending on God's guidance rather than focusing only on achieving results, leaders can navigate challenges with humility, inspire confidence, and create an environment where both people and the organization can grow together.'`,
+          title: 'Process',
+          description: 'Identify leadership challenges, seek God\'s guidance through prayer and Scripture, listen to stakeholders, communicate the purpose of change, provide training, evaluate risks, and develop thoughtful action plans',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
         },
         {
-          title: '',
-          description: `'A significant risk in a leadership role is making decisions that may initially be unpopular but are necessary for the long-term success of the team or organization. For example, leading the adoption of AI-driven processes may require changing established workflows, investing in employee training, or redefining responsibilities. While these changes can improve efficiency and innovation, they may also create uncertainty and resistance among team members.'`,
+          title: 'Tools',
+          description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
           image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
           points: []
-        }       
+        },
+		    {
+          title: 'Value Proposition',
+          description: 'Builds trust, reduces resistance, strengthens teamwork, supports thoughtful decision-making, and helps organizations navigate AI-driven transformation while maintaining humility, compassion, and confidence.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+		    {
+          title: 'Relevance',
+          description: 'Highly relevant to leaders managing AI adoption because successful transformation requires both technological implementation and attention to employee concerns, trust, uncertainty, and organizational readiness.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        }		
+      ]      
+    },
+    {
+      id: 4,
+      title: 'Navigating Human Bias as a Business Analyst',
+      description: 'Navigating Human Bias as a Business Analyst',
+      date: 'Artifact 4',
+      grade: '',
+      tech: ['', '', ''],
+      learnings: [],
+      details: [
+        {
+          title: 'Title',
+          description: 'Navigating Human Bias as a Business Analyst',
+          image: '/assets/img/assignments/AI_Timeline.png',
+          points: []
+        },
+        {
+          title: 'Objective',
+          description: 'To ensure business decisions and transformation efforts are based on objective data, genuine user needs, diverse stakeholder perspectives, and sustainable business value.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+        {
+          title: 'Process',
+          description: 'Gather requirements from multiple perspectives, validate processes using data and observation, conduct root-cause analysis, and present transparent, data-backed trade-offs.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+        {
+          title: 'Tools',
+          description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+		    {
+          title: 'Value Proposition',
+          description: 'Reduces cognitive and organizational bias, improves decision quality, strengthens stakeholder inclusion, and prevents organizations from automating inefficient processes.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        },
+		    {
+          title: 'Relevance',
+          description: 'Highly relevant to business analysts because requirements can be influenced by confirmation bias, departmental silos, status quo bias, and political incentives.',
+          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
+          points: []
+        }		
       ]      
     }    
   ];
