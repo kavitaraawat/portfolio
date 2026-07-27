@@ -118,8 +118,8 @@ export class PortfolioService {
         }
       ],
       reference: `       
-        <img src="/assets/img/assignments/AI_Timeline.png" alt="Assignment Preview" class="img-fluid rounded my-2">
-      `      
+        <img src="assets/img/assignments/AI_Timeline.png" alt="Assignment Preview" class="img-fluid rounded my-2">
+      `
     },
     {
       id: 2,
@@ -173,12 +173,12 @@ export class PortfolioService {
           description: '',
           image: '',
           references: [
-            `<a href="/assets/document/assignments/artifact2/2.3.pdf" target="_blank">View Document</a>`
+            `<a href="assets/document/assignments/artifact2/2.3.pdf" target="_blank">View Document</a>`
           ]
         }
       ],
       reference: `       
-        <img src="/assets/img/assignments/AI-ML-DL.png" alt="Assignment Preview" class="img-fluid rounded my-2">
+        <img src="assets/img/assignments/AI-ML-DL.png" alt="Assignment Preview" class="img-fluid rounded my-2">
       `     
     },
     {
@@ -231,7 +231,7 @@ export class PortfolioService {
           description: '',
           image: '',
           references: [
-            `<a href="/assets/document/assignments/artifact3/3.1.pdf" target="_blank">View Document</a>`
+            `<a href="assets/document/assignments/artifact3/3.1.pdf" target="_blank">View Document</a>`
           ]
         }
       ],
