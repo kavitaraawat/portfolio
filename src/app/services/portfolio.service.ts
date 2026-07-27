@@ -1,12 +1,5 @@
 import { Injectable } from '@angular/core';
 
-
-export interface AssignmentDetail {
-  title: string;
-  description: string;
-  image?: string;
-  points?: string[];
-}
 export interface Assignment {
   id: number;
   title: string;
@@ -16,6 +9,15 @@ export interface Assignment {
   tech: string[];
   learnings?: string[];
   details?: AssignmentDetail[];
+  reference: string;
+  image?: string;
+}
+
+export interface AssignmentDetail {
+  title: string;
+  description: string;
+  image?: string;
+  references?: string[];
 }
 
 export interface Activity {
@@ -71,40 +73,53 @@ export class PortfolioService {
       details: [
         {
           title: 'Title',
-          description: 'The Evolution of Artificial Intelligence: From Foundations to Generative and Agentic AI',          image: '/assets/img/assignments/AI_Timeline.png',
-          points: []
+          description: 'The Evolution of Artificial Intelligence: From Foundations to Generative and Agentic AI',          
+          image: '',
+          references: []
         },
         {
           title: 'Objective',
           description: 'To explain how AI evolved from symbolic, rule-based systems to machine learning, deep learning, generative AI, and agentic AI.',
-          image: '/assets/img/assignments/AI_Timeline.png',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Process',
           description: 'The document follows a chronological approach, highlighting major milestones, breakthroughs, challenges, key people, and technologies from 1950 to 2026.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Tools',
           description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
-                {
+        {
           title: 'Value Proposition',
           description: 'Provides historical context for understanding AI\'s rapid development, current capabilities, and increasing impact across business, education, healthcare, software engineering, and society.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
-                {
+        {
           title: 'Relevance',
           description: 'The topic is highly relevant for understanding today\'s generative and agentic AI landscape and preparing professionals for AI\'s growing influence and future direction.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
-        }        
-      ]      
+          image: '',
+          references: []
+        },
+        {
+          title: 'References',
+          description: '',
+          image: '',
+          references: [
+            `<a href="https://brightspace.indwes.edu/d2l/le/307215/discussions/threads/7005985/View" target="_blank">Discussion Thread</a></br>
+            <a href="https://brightspace.indwes.edu/d2l/le/307215/discussions/posts/20430716/ViewAttachment?fileId=36327336" target="_blank">AI Timeline</a>`
+          ]
+        }
+      ],
+      reference: `       
+        <img src="/assets/img/assignments/AI_Timeline.png" alt="Assignment Preview" class="img-fluid rounded my-2">
+      `      
     },
     {
       id: 2,
@@ -120,40 +135,51 @@ export class PortfolioService {
         {
           title: 'Title',
           description: 'Machine Learning Vs Deep Learning',
-          image: '/assets/img/assignments/AI_Timeline.png',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Objective',
           description: 'To explain the differences among AI, ML, and DL and demonstrate their appropriate applications through email spam detection and autonomous vehicle object detection.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Process',
           description: 'Compare AI, ML, and DL based on learning approach, data dependency, feature extraction, data requirements, and use cases; then explain how ML classifies spam emails and how DL processes complex visual information for self-driving cars.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Tools',
           description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Value Proposition',
           description: 'The document demonstrates that selecting the right technology improves efficiency and effectiveness: ML provides interpretable and computationally efficient spam detection, while DL handles complex, high-dimensional visual data required for autonomous driving.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Relevance',
           description: 'The topic is relevant for understanding how AI technologies can be matched to real-world problems based on data complexity, computational requirements, accuracy, interpretability, and application needs.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
+        },
+        {
+          title: 'References',
+          description: '',
+          image: '',
+          references: [
+            `<a href="/assets/document/assignments/artifact2/2.3.pdf" target="_blank">View Document</a>`
+          ]
         }
-      ]      
+      ],
+      reference: `       
+        <img src="/assets/img/assignments/AI-ML-DL.png" alt="Assignment Preview" class="img-fluid rounded my-2">
+      `     
     },
     {
       id: 3,
@@ -167,40 +193,49 @@ export class PortfolioService {
         {
           title: 'Title',
           description: 'Adapting to Challenges',
-          image: '/assets/img/assignments/AI_Timeline.png',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Objective',
           description: 'To reflect on how leaders can use faith, wisdom, communication, and courage to manage resistance and make difficult decisions during AI and technology adoption.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Process',
           description: 'Identify leadership challenges, seek God\'s guidance through prayer and Scripture, listen to stakeholders, communicate the purpose of change, provide training, evaluate risks, and develop thoughtful action plans',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Tools',
           description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
 		    {
           title: 'Value Proposition',
           description: 'Builds trust, reduces resistance, strengthens teamwork, supports thoughtful decision-making, and helps organizations navigate AI-driven transformation while maintaining humility, compassion, and confidence.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
 		    {
           title: 'Relevance',
           description: 'Highly relevant to leaders managing AI adoption because successful transformation requires both technological implementation and attention to employee concerns, trust, uncertainty, and organizational readiness.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
-        }		
-      ]      
+          image: '',
+          references: []
+        },		
+        {
+          title: 'References',
+          description: '',
+          image: '',
+          references: [
+            `<a href="/assets/document/assignments/artifact3/3.1.pdf" target="_blank">View Document</a>`
+          ]
+        }
+      ],
+      reference: ``     
     },
     {
       id: 4,
@@ -214,40 +249,49 @@ export class PortfolioService {
         {
           title: 'Title',
           description: 'Navigating Human Bias as a Business Analyst',
-          image: '/assets/img/assignments/AI_Timeline.png',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Objective',
           description: 'To ensure business decisions and transformation efforts are based on objective data, genuine user needs, diverse stakeholder perspectives, and sustainable business value.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Process',
           description: 'Gather requirements from multiple perspectives, validate processes using data and observation, conduct root-cause analysis, and present transparent, data-backed trade-offs.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
         {
           title: 'Tools',
           description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
 		    {
           title: 'Value Proposition',
           description: 'Reduces cognitive and organizational bias, improves decision quality, strengthens stakeholder inclusion, and prevents organizations from automating inefficient processes.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
+          image: '',
+          references: []
         },
 		    {
           title: 'Relevance',
           description: 'Highly relevant to business analysts because requirements can be influenced by confirmation bias, departmental silos, status quo bias, and political incentives.',
-          image: 'https://via.placeholder.com/600x400?text=Technical+Stack',
-          points: []
-        }		
-      ]      
+          image: '',
+          references: []
+        },
+        {
+          title: 'References',
+          description: '',
+          image: '',
+          references: [
+            `<a href="https://brightspace.indwes.edu/d2l/le/307215/discussions/threads/7064602/View" target="_blank">Discussion Thread</a>`
+          ]
+        }        	
+      ],
+      reference: ``   
     }    
   ];
 
