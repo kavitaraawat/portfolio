@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { AssignmentsComponent } from './components/assignments/assignments.component';
+import { AboutComponent } from './components/about/about.component';
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
@@ -14,7 +15,7 @@ declare var AOS: any;
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, ProfileComponent, AssignmentsComponent, ActivitiesComponent, SkillsComponent, ProjectsComponent, FooterComponent],
+  imports: [CommonModule, NavbarComponent, ProfileComponent, AssignmentsComponent, AboutComponent, ActivitiesComponent, SkillsComponent, ProjectsComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

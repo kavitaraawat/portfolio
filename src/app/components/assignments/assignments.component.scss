@@ -88,7 +88,7 @@
   border-radius: 12px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   max-width: 800px;
-  width: 90%;
+  width: 95%;
   max-height: 80vh;
   overflow-y: auto;
   animation: slideIn 0.3s ease;
@@ -123,7 +123,7 @@
     font-weight: 700;
   }
 }
-/*
+
 .close-btn {
   background: rgba(255, 255, 255, 0.2);
   border: none;
@@ -141,27 +141,6 @@
 
   &:hover {
     background: rgba(255, 255, 255, 0.3);
-  }
-}
-*/
-
-.btn-close {
-  width: 32px !important;
-  height: 32px !important;
-  min-width: 32px !important; /* Prevents flex container stretching */
-  min-height: 32px !important;
-  border-radius: 50% !important; /* Ensures a perfect circle */
-  padding: 0 !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: 14px; /* Adjust cross icon size inside the circle */
-  opacity: 0.8;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-
-  &:hover {
-    opacity: 1;
-    transform: scale(1.1);
   }
 }
 

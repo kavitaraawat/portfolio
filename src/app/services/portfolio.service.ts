@@ -485,7 +485,7 @@ export class PortfolioService {
     return {
       name: 'Kavita Rawat',
       title: 'AI & Data Analytics Graduate Student',
-      bio: 'Welcome to my portfolio! I\'m passionate about artificial intelligence and data analytics. This portfolio showcases my academic work and personal projects.',
+      bio: 'Welcome to my learning portfolio! I\'m passionate about learning AI and data analytics and improve skills for my career growth. This portfolio showcases my academic journey and related works. This portfolio is designed for educators, industry professionals, technical recruiters, students and potential collaborators who are interested in understanding how AI/ML students are developing both technical skills and ethical awareness.',
       profileImage: 'assets/img/portfolio/profile.png',
       stats: {
         projects: 25,
