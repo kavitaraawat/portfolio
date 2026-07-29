@@ -41,7 +41,10 @@
       <div class="assignment-details" *ngIf="selectedAssignment.details">
         <div class="detail-row" *ngFor="let detail of selectedAssignment.details">
           <h3 class="detail-heading">{{ detail.title }}</h3>
-          <p class="detail-description">{{ detail.description }}</p>
+          <!-- <p class="detail-description">{{ detail.description }}</p> -->
+
+          <p class="detail-description" [innerHTML]="detail.description"></p>
+
           <div class="detail-references" [innerHTML]="detail.references"></div> <!-- Render the HTML content safely -->
         </div>
       </div>

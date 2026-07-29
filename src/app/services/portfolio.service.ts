@@ -79,13 +79,13 @@ export class PortfolioService {
         },
         {
           title: 'Objective',
-          description: 'To explain how AI evolved from symbolic, rule-based systems to machine learning, deep learning, generative AI, and agentic AI.',
+          description: 'The objective is to explain the historical evolution of artificial intelligence and highlight the major technological milestones that have shaped its development. The document demonstrates how AI progressed from handcrafted rules and symbolic reasoning to data-driven machine learning, deep learning, generative AI, and increasingly autonomous agentic AI systems.',
           image: '',
           references: []
         },
         {
           title: 'Process',
-          description: 'The document follows a chronological approach, highlighting major milestones, breakthroughs, challenges, key people, and technologies from 1950 to 2026.',
+          description: 'The document uses a chronological and milestone-based approach to explain AI\'s evolution. It begins with foundational developments such as Alan Turing\'s work in 1950 and the 1956 Dartmouth Conference. It then discusses symbolic AI, expert systems, machine learning, neural networks, deep learning, transformers, generative AI, and agentic AI. A timeline reinforces the discussion by connecting important years with key people, companies, milestones, and their significance.',
           image: '',
           references: []
         },
@@ -97,19 +97,25 @@ export class PortfolioService {
         },
         {
           title: 'Value Proposition',
-          description: 'Provides historical context for understanding AI\'s rapid development, current capabilities, and increasing impact across business, education, healthcare, software engineering, and society.',
+          description: 'The primary value proposition is that understanding AI\'s evolution helps organizations and professionals recognize how AI capabilities have expanded and how these technologies can create future opportunities. AI has progressed from solving narrow, predefined problems to generating content and performing increasingly complex, multi-step tasks. This evolution creates opportunities across business, education, healthcare, software engineering, and society.',
           image: '',
           references: []
         },
         {
           title: 'Relevance',
-          description: 'The topic is highly relevant for understanding today\'s generative and agentic AI landscape and preparing professionals for AI\'s growing influence and future direction.',
+          description: 'The topic is highly relevant because AI is rapidly becoming an important part of modern organizations and professional work. Understanding the transition from traditional AI to generative and agentic AI helps professionals better prepare for technological change. The document\'s discussion of agentic AI is particularly relevant because these systems can plan tasks, use tools, access information, and perform multi-step actions with increasing autonomy.',
           image: '',
           references: []
         },
         {
           title: 'References',
-          description: '',
+          description: `
+            <ul>
+              <li>Bhat , A. K. (2025, March 11). The Evolution of AI: From Foundations to Future Prospects. Retrieved from IEEE Computer Society: https://www.computer.org/publications/tech-news/research/evolution-of-ai</li>
+              <li>Putchuon. (2024, May 30). The Entire History of Artificial Intelligence (Last 100 Years). Retrieved from YouTube: https://www.youtube.com/watch?v=mSd9nmPM7Vg</li>
+              <li>Roser, M. (2022, December 6). The brief history of artificial intelligence: the world has changed fast-what might be next? Retrieved from Our World in Data: https://ourworldindata.org/brief-history-of-ai</li>
+            </ul>
+			    `,
           image: '',
           references: [
             `<a href="https://brightspace.indwes.edu/d2l/le/307215/discussions/threads/7005985/View" target="_blank">Discussion Thread</a></br>
@@ -140,7 +146,7 @@ export class PortfolioService {
         },
         {
           title: 'Objective',
-          description: 'To explain the differences among AI, ML, and DL and demonstrate their appropriate applications through email spam detection and autonomous vehicle object detection.',
+          description: 'The objective is to explain the relationship and differences between Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) and demonstrate how each technology is suited to different types of problems. The document uses email spam detection as an example of a practical machine learning application and self-driving car object detection as an example of deep learning. It also explains why traditional ML may be more appropriate for structured problems, while DL is better suited to complex, unstructured data such as images and video.',
           image: '',
           references: []
         },
@@ -158,19 +164,24 @@ export class PortfolioService {
         },
         {
           title: 'Value Proposition',
-          description: 'The document demonstrates that selecting the right technology improves efficiency and effectiveness: ML provides interpretable and computationally efficient spam detection, while DL handles complex, high-dimensional visual data required for autonomous driving.',
+          description: 'The key value proposition is matching the right AI technology to the right problem. Machine learning can provide efficient, interpretable, and relatively cost-effective solutions for structured tasks such as spam detection. Deep learning delivers strong performance for complex, high-dimensional, unstructured data such as images and video, making it valuable for applications such as autonomous vehicles. The document emphasizes that using deep learning for a simple problem can be unnecessary and computationally expensive, while traditional ML may struggle with complex visual environments.',
           image: '',
           references: []
         },
         {
           title: 'Relevance',
-          description: 'The topic is relevant for understanding how AI technologies can be matched to real-world problems based on data complexity, computational requirements, accuracy, interpretability, and application needs.',
+          description: 'This topic is highly relevant because AI technologies are becoming integral to modern business and society. Understanding the differences between AI, ML, and DL helps professionals select appropriate solutions for real-world problems rather than applying advanced techniques unnecessarily. The examples of spam detection and self-driving vehicles illustrate how different AI methods address different types of challenges based on data complexity, computational requirements, and desired outcomes. This knowledge is valuable across industries such as cybersecurity, healthcare, finance, manufacturing, and transportation.',
           image: '',
           references: []
         },
         {
           title: 'References',
-          description: '',
+          description: `
+            <ul>
+              <li>Artificial intelligence vs Machine Learning vs Deep Learning. (2025, September 12). Retrieved from Geeks for Geeks: https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence-vs-machine-learning-vs-deep-learning/</li>
+              <li>IBM Data and AI Team. (n.d.). AI vs. machine learning vs. deep learning vs. neural networks: What’s the difference? Retrieved from IBM: https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks</li>
+            </ul>
+			    `,
           image: '',
           references: [
             `<a href="assets/document/assignments/artifact2/2.3.pdf" target="_blank">View Document</a>`
@@ -198,13 +209,13 @@ export class PortfolioService {
         },
         {
           title: 'Objective',
-          description: 'To reflect on how leaders can use faith, wisdom, communication, and courage to manage resistance and make difficult decisions during AI and technology adoption.',
+          description: 'The objective is to explore how leaders can effectively manage resistance to AI and technology-driven change while maintaining trust, motivation, and teamwork. The document emphasizes relying on God\'s wisdom, prayer, Scripture, and wise counsel when facing uncertainty. It also examines how leaders can approach significant risks and unpopular decisions with courage, strategic thinking, patience, and faith.',
           image: '',
           references: []
         },
         {
           title: 'Process',
-          description: 'Identify leadership challenges, seek God\'s guidance through prayer and Scripture, listen to stakeholders, communicate the purpose of change, provide training, evaluate risks, and develop thoughtful action plans',
+          description: 'An effective leadership approach to AI-driven change begins with recognizing that employees may feel uncertain or fear that new technologies could affect their roles. Leaders can navigate these challenges by seeking God\'s wisdom through prayer, Scripture, and trusted counsel while listening carefully to employees\' concerns. Clearly communicating the purpose and benefits of change helps build trust and reduce resistance. Providing training, encouragement, and ongoing support enables teams to adapt with confidence. Before making major decisions, leaders should thoughtfully evaluate risks, develop a strategic plan, and build stakeholder support. Acting with courage, humility, and faith strengthens teamwork and promotes successful organizational transformation.',
           image: '',
           references: []
         },
@@ -216,19 +227,24 @@ export class PortfolioService {
         },
 		    {
           title: 'Value Proposition',
-          description: 'Builds trust, reduces resistance, strengthens teamwork, supports thoughtful decision-making, and helps organizations navigate AI-driven transformation while maintaining humility, compassion, and confidence.',
+          description: 'The document demonstrates that successful AI adoption depends not only on technology but also on leadership. Leaders who seek wisdom, communicate openly, address concerns with empathy, and prepare employees through training can reduce resistance and build trust. Combining faith-based leadership with thoughtful change management creates an environment where innovation, teamwork, and organizational growth can flourish while maintaining integrity and compassion.',
           image: '',
           references: []
         },
 		    {
           title: 'Relevance',
-          description: 'Highly relevant to leaders managing AI adoption because successful transformation requires both technological implementation and attention to employee concerns, trust, uncertainty, and organizational readiness.',
+          description: 'This reflection is highly relevant to modern organizations implementing AI and digital transformation. New technologies often create uncertainty among employees regarding changing responsibilities and job security. The document shows that effective leadership requires balancing technological advancement with empathy, transparent communication, workforce development, and ethical decision-making. It also illustrates how biblical leadership principles can guide leaders through periods of uncertainty and organizational change.',
           image: '',
           references: []
         },		
         {
           title: 'References',
-          description: '',
+          description: `
+            <ul>
+              <li>Chan, N. (2021, September 21). 5 people in the Bible who got through tough times (and how!). Retrieved from Thirst: https://thirst.sg/5-people-in-the-bible-who-got-through-tough-times-and-how</li>
+              <li>Horikoshi, K. (2023). The positive psychology of challenge: Towards interdisciplinary studies of activities and processes involving challenges. Front Psychol, 13. doi:10.3389/fpsyg.2022.1090069</li>
+            </ul>
+			    `,
           image: '',
           references: [
             `<a href="assets/document/assignments/artifact3/3.1.pdf" target="_blank">View Document</a>`
@@ -254,37 +270,38 @@ export class PortfolioService {
         },
         {
           title: 'Objective',
-          description: 'To ensure business decisions and transformation efforts are based on objective data, genuine user needs, diverse stakeholder perspectives, and sustainable business value.',
+          description: 'The objective is to explain how a Business Analyst can identify and reduce human bias in business requirements, stakeholder decisions, and organizational transformation. The approach emphasizes objective data, inclusive stakeholder dialogue, genuine user needs, and integrity to ensure that business solutions create sustainable value rather than simply automating existing inefficiencies.',
+
           image: '',
           references: []
         },
         {
           title: 'Process',
-          description: 'Gather requirements from multiple perspectives, validate processes using data and observation, conduct root-cause analysis, and present transparent, data-backed trade-offs.',
+          description: 'The process begins by gathering requirements from stakeholders across all organizational levels to ensure diverse perspectives are considered. Anonymous surveys, structured interviews, and blind prioritization help minimize the influence of hierarchy and personal bias. Business processes and stakeholder claims are then validated through objective data analysis, direct observation, and process auditing. Root causes are identified using techniques such as the 5 Whys and fishbone diagrams to address underlying issues rather than symptoms. Finally, decision-makers are presented with transparent, data-backed alternatives that outline benefits, risks, and trade-offs, enabling objective, value-driven decisions that prioritize genuine business and user needs.',
           image: '',
           references: []
         },
         {
           title: 'Tools',
-          description: 'Scholar Papers, AI Assistants (ChatGPT, Gemini, Claude).',
+          description: 'AI Assistants (ChatGPT, Gemini, Claude).',
           image: '',
           references: []
         },
 		    {
           title: 'Value Proposition',
-          description: 'Reduces cognitive and organizational bias, improves decision quality, strengthens stakeholder inclusion, and prevents organizations from automating inefficient processes.',
+          description: 'To ensure that business decisions and transformation initiatives are based on objective evidence and genuine stakeholder needs rather than cognitive biases, organizational politics, or executive preferences. This approach can improve the quality of requirements, reduce the risk of implementing ineffective solutions, ensure diverse operational perspectives are considered, and help organizations achieve sustainable business value.',
           image: '',
           references: []
         },
 		    {
           title: 'Relevance',
-          description: 'Highly relevant to business analysts because requirements can be influenced by confirmation bias, departmental silos, status quo bias, and political incentives.',
+          description: 'Highly relevant to business analysts because requirements and business decisions can be influenced by confirmation bias, departmental silos, status differences, and political incentives. By using structured methods and data-driven validation, Business Analysts can act as objective bridges between organizational strategy and operational reality. This is particularly important during digital transformation, process improvement, and technology implementation projects, where biased requirements could lead to ineffective solutions or simply automate existing inefficiencies.',
           image: '',
           references: []
         },
         {
           title: 'References',
-          description: '',
+          description: `AI Assistants (ChatGPT, Gemini, Claude)`,
           image: '',
           references: [
             `<a href="https://brightspace.indwes.edu/d2l/le/307215/discussions/threads/7064602/View" target="_blank">Discussion Thread</a>`
@@ -483,9 +500,9 @@ export class PortfolioService {
   // Profile data - could be expanded with API call later
   getProfileData() {
     return {
-      name: 'Kavita Rawat',
+      name: 'Dont Use this section',
       title: 'AI & Data Analytics Graduate Student',
-      bio: 'Welcome to my learning portfolio! I\'m passionate about learning AI and data analytics and improve skills for my career growth. This portfolio showcases my academic journey and related works. This portfolio is designed for educators, industry professionals, technical recruiters, students and potential collaborators who are interested in understanding how AI/ML students are developing both technical skills and ethical awareness.',
+      bio: 'Welcome to my learning portfolio! I am passionate about learning AI and data analytics and improving skills for my career growth. This portfolio showcases my academic journey and related work. This portfolio is designed for educators, industry professionals, technical recruiters, students and potential collaborators who are interested in understanding how AI/ML students are developing both technical skills and ethical awareness.',
       profileImage: 'assets/img/portfolio/profile.png',
       stats: {
         projects: 25,
